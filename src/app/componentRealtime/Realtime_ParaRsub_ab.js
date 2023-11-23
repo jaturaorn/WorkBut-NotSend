@@ -1,3 +1,5 @@
+import RealT_P_AB_sub from "./RealT_P_AB_sub";
+
 const Realtime_ParaRsub_ab = () => {
   return (
     <div>
@@ -73,6 +75,7 @@ bg-[#5970F2] shadow-md text-white text-lg text-center"
       >
         11
       </div>
+      <RealT_P_AB_sub />
     </div>
   );
 };
