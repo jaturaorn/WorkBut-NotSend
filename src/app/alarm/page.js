@@ -1,5 +1,6 @@
 import Layout from "../component/layout";
-import Link from "next/link";
+
+import AlarmSub from "../componentAlarm/AlarmSub";
 
 const page = () => {
   return (
@@ -79,6 +80,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      <AlarmSub />
     </Layout>
   );
 };
